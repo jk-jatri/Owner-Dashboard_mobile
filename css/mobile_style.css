@@ -49,6 +49,10 @@
 }
 
 
+.header {
+    box-shadow: 4px 3px 11px 2px #ddd;
+}
+
 
 /* ======================== Dashboard page design =========================== */
 
@@ -403,4 +407,147 @@
 
 .mobile_logout a{
     padding: 0 0 15px 0;
+}
+
+/* ================= Bus Company Design Start ================ */
+
+.heading h2{
+    font-size: 16px;
+}
+
+.single_company_detail{
+    padding: 10px;
+    font-size: 14px;
+    border-top: 1px solid #f1efef;
+}
+
+.single_company_detail:last-child{
+    border-bottom: 1px solid #f1efef;
+}
+
+
+.single_company_detail:nth-child(odd){
+    background-color: #fff;
+}
+
+.single_company_detail:nth-child(even){
+    background-color: #f7f7f7;
+}
+
+.single_company_detail p{
+    margin: 0 0 7px 0;
+    line-height: 15px;
+}
+
+.company_detail{
+    margin-left: 10px;
+}
+
+/* ================= Rides page Design Start ================= */
+
+.mobile_fare{
+    margin-left: 15% !important;
+}
+
+.single_company_detail p span{
+    font-weight: 600;
+}
+
+/* ================= Counter Wise Report Design Start ================= */
+
+.status_on {
+    color: #42B32D;
+}
+
+.status_off {
+    color: #FF3E14;
+}
+
+.detail_modal_btn{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.detail_modal_btn:hover{
+    transition: 0.4s;
+    color: #ff6347;
+
+}
+
+/* ================= Filter button Design ================= */
+.filter_modal_btn{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04);
+    border-radius: 6px;
+    border: none;
+    font-size: 14px;
+    padding: 8px 15px;
+    color: #FF6347;
+}
+.filter_modal_btn:hover{
+    background: #FF6347;
+    color: #FFFFFF;
+    transition: 0.4s;
+}
+
+.modal_close_btn{
+    background-color: transparent;
+    outline: 0;
+    border: none;
+    color: #000;
+    font-size: 28px;
+}
+.modal_close_btn:hover{
+    color: #FF6347;
+    transition: 0.4s;
+}
+
+.modal_animation{
+    animation: animatezoom 0.6s;
+    border-radius: 17px !important;
+}
+
+@keyframes animatezoom{
+    from{
+        transform:scale(0)
+    } 
+    to{
+        transform:scale(1)
+    }
+}
+
+.common_modal_btn {
+    padding: 10px;
+    border: none;
+    background-color: transparent !important;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* ===================== Custom Select Menu Design start ==================== */
+
+.custom_select_menu{
+    padding: 10px 20px;
+    margin: 10px auto;
+    border: 1px solid #F7F7F7;
+    border-radius: 7px !important;
+    box-shadow: inset 0px 0px 13px 2px #F7F7F7;
+    color: #868E96;
+    background-color: #F7F7F7 !important;
+    cursor: pointer;
+}
+
+.custom_select_menu:focus{
+    outline: 0 !important;
+    border: 1px solid #F7F7F7 !important;
+    box-shadow: inset 0px 0px 13px 2px #F7F7F7 !important;
+}
+
+.corporate_color{
+    color: #FF6347;
+}
+
+.default_color{
+    color: #868E96;
 }
