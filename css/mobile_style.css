@@ -209,16 +209,14 @@
 /*Nav Tap*/
 .slideNavTab {
     text-align: center;
-    width: 60px;
-    /* background: #FF6347; */
     height: 25px;
 }
 
 /*Border*/
 .slideNavTab a {
     position: absolute;
-    top: 25px;
-    padding-left: 25px;
+    top: 29px;
+    left: 0;
 }
 
 #bottomnav{
